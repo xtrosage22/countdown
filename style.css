@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("bd.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Akronim", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 5em;
+}
+
+.countdown{
+    display: flex;
+    transform: scale(2);
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h3{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
